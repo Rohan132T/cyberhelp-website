@@ -20,33 +20,44 @@
     <a id="back-to-top" href="#" class="back-to-top-button">&#8679;</a>
 
     <script>
-        // হ্যামবার্গার মেনুর জন্য জাভাস্ক্রিপ্ট
-        const menuToggle = document.getElementById('menu-toggle');
-        const navMenu = document.getElementById('nav-menu');
+        // এই কোডটি নিশ্চিত করে যে পুরো HTML পেজটি লোড হওয়ার পরেই কেবল ভেতরের কোডগুলো চলবে
+        document.addEventListener('DOMContentLoaded', function() {
 
-        if (menuToggle && navMenu) {
-            menuToggle.addEventListener('click', () => {
-                navMenu.classList.toggle('show');
-            });
-        }
+            // --- হ্যামবার্গার মেনুর জন্য কোড শুরু ---
+            const menuToggle = document.getElementById('menu-toggle');
+            const navMenu = document.getElementById('nav-menu');
 
-        // "Back to Top" বাটনের জন্য জাভাস্ক্রিপ্ট
-        const backToTopButton = document.getElementById('back-to-top');
+            if (menuToggle && navMenu) {
+                menuToggle.addEventListener('click', () => {
+                    navMenu.classList.toggle('show');
+                });
+            }
+            // --- হ্যামবার্গার মেনুর জন্য কোড শেষ ---
 
-        if (backToTopButton) {
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 300) {
-                    backToTopButton.style.display = 'block';
-                } else {
-                    backToTopButton.style.display = 'none';
-                }
-            });
 
-            backToTopButton.addEventListener('click', (e) => {
-                e.preventDefault();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-        }
+            // --- "Back to Top" বাটনের জন্য কোড শুরু ---
+            const backToTopButton = document.getElementById('back-to-top');
+
+            if (backToTopButton) {
+                // ব্যবহারকারী যখন স্ক্রল করবে, তখন এই ফাংশনটি কাজ করবে
+                window.addEventListener('scroll', () => {
+                    // যদি 300 পিক্সেলের বেশি স্ক্রল করা হয়
+                    if (window.scrollY > 300) {
+                        backToTopButton.style.display = 'block'; // বাটনটি দেখাও
+                    } else {
+                        backToTopButton.style.display = 'none'; // বাটনটি লুকিয়ে রাখো
+                    }
+                });
+
+                // বাটনে ক্লিক করলে এই ফাংশনটি কাজ করবে
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault(); // লিঙ্কের ডিফল্ট কাজ বন্ধ করে
+                    window.scrollTo({ top: 0, behavior: 'smooth' }); // স্মুথভাবে পেজের শুরুতে চলে যাবে
+                });
+            }
+            // --- "Back to Top" বাটনের জন্য কোড শেষ ---
+
+        });
     </script>
 
 </body>
