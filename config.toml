@@ -1,3 +1,7 @@
+baseURL = "https://cyberhelp-website.onrender.com/"
+languageCode = "bn-BD"
+title = "সাইবার হেল্প বাংলা"
+
 [menu]
   [[menu.main]]
     name = "Home (হোম)"
