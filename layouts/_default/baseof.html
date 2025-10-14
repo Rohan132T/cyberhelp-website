@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="https://i.ibb.co/SRx1Wc8/rohan-favicon.png" type="image/png">
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
+    <div class="container">
+        {{ partial "header.html" . }}
+        <main>{{ block "main" . }}{{ end }}</main>
+        {{ partial "footer.html" . }}
+    </div>
+
+    <a id="back-to-top" href="#" class="back-to-top-button">&#8679;</a>
+    <script>
+        // হ্যামবার্গার মেনুর জন্য জাভাস্ক্রিপ্ট
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+
+        // "Back to Top" বাটনের জন্য জাভাস্ক্রিপ্ট
+        const backToTopButton = document.getElementById('back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+
+</body>
+</html>
+

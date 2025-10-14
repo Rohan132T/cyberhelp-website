@@ -1,0 +1,22 @@
+[menu]
+  [[menu.main]]
+    name = "Home (হোম)"
+    url = "/"
+    weight = 0
+  [[menu.main]]
+    name = "Emergency Help (জরুরী সাহায্য)"
+    url = "/emergency-help/"
+    weight = 1
+  [[menu.main]]
+    name = "Security Tips (নিরাপত্তা টিপস)"
+    url = "/security-tips/"
+    weight = 2
+  [[menu.main]]
+    name = "About Me (আমার সম্পর্কে)"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact (যোগাযোগ)"
+    url = "/contact/"
+    weight = 4
+

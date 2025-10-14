@@ -1,0 +1,25 @@
+<header>
+    <div class="logo">
+        <a href="{{ .Site.BaseURL }}" class="profile-link">
+            <img src="https://a.top4top.io/p_3574u2e160.jpg" alt="রোহান প্রোফাইল" class="profile-pic">
+            <div class="profile-text">
+                <span class="profile-name">রোহান</span>
+                <span class="profile-subtitle">সাইবার মিত্র</span>
+            </div>
+        </a>
+    </div>
+
+    <button id="menu-toggle" class="menu-toggle">
+        &#9776;
+    </button>
+
+    <nav id="nav-menu" class="nav-menu">
+        <h3>টপিক</h3>
+        <ul>
+            {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
+</header>
+

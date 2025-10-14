@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security-Tips on </title>
+    <link>//localhost:1313/security-tips/</link>
+    <description>Recent content in Security-Tips on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/security-tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QR কোড স্ক্যাম থেকে কীভাবে বাঁচবেন?</title>
+      <link>//localhost:1313/security-tips/qr-code-scam/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/qr-code-scam/</guid>
+      <description>আজকাল UPI পেমেন্টের জন্য QR কোড খুবই জনপ্রিয়, কিন্তু প্রতারকরা এর মাধ্যমেও টাকা হাতিয়ে নিচ্ছে। সতর্ক থাকুন।</description>
+    </item>
+    <item>
+      <title>অনলাইন শপিং করার সময় কী কী খেয়াল রাখবেন?</title>
+      <link>//localhost:1313/security-tips/online-shopping-safety/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/online-shopping-safety/</guid>
+      <description>অনলাইন শপিং খুবই সুবিধাজনক, কিন্তু প্রতারণার হাত থেকে বাঁচতে কিছু সতর্কতা অবলম্বন করা আবশ্যক।</description>
+    </item>
+    <item>
+      <title>আপনার ব্যক্তিগত ডেটার ব্যাকআপ কেন জরুরি?</title>
+      <link>//localhost:1313/security-tips/data-backup-importance/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/data-backup-importance/</guid>
+      <description>ফোন হারিয়ে গেলে বা র‍্যানসমওয়্যার অ্যাটাক হলে আপনার সমস্ত মূল্যবান ছবি ও ফাইল চিরতরে হারিয়ে যেতে পারে।</description>
+    </item>
+    <item>
+      <title>আপনার স্মার্টফোনকে কীভাবে সুরক্ষিত রাখবেন?</title>
+      <link>//localhost:1313/security-tips/smartphone-security/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/smartphone-security/</guid>
+      <description>আমাদের ফোন এখন শুধু কথা বলার যন্ত্র নয়, এটি আমাদের ডিজিটাল জীবনের কেন্দ্রবিন্দু। তাই এর সুরক্ষা অত্যন্ত জরুরি।</description>
+    </item>
+    <item>
+      <title>কীভাবে একটি শক্তিশালী পাসওয়ার্ড তৈরি করবেন?</title>
+      <link>//localhost:1313/security-tips/strong-password/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/strong-password/</guid>
+      <description>একটি শক্তিশালী পাসওয়ার্ড আপনার অনলাইন একাউন্টকে হ্যাকারদের থেকে সুরক্ষিত রাখার প্রথম ধাপ। আসুন জেনে নিই&amp;hellip;</description>
+    </item>
+    <item>
+      <title>টু-ফ্যাক্টর অথেনটিকেশন (2FA) কী এবং কেন জরুরি?</title>
+      <link>//localhost:1313/security-tips/what-is-2fa/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/what-is-2fa/</guid>
+      <description>আপনার অনলাইন সুরক্ষাকে দ্বিগুণ শক্তিশালী করার জন্য 2FA একটি অপরিহার্য টুল। এটি কীভাবে কাজ করে জেনে নিন।</description>
+    </item>
+    <item>
+      <title>পাবলিক Wi-Fi ব্যবহারের সময় কীভাবে সুরক্ষিত থাকবেন?</title>
+      <link>//localhost:1313/security-tips/public-wifi-safety/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/public-wifi-safety/</guid>
+      <description>ফ্রি Wi-Fi ব্যবহার করা সুবিধাজনক, কিন্তু এটি খুবই ঝুঁকিপূর্ণ হতে পারে। জেনে নিন সুরক্ষার উপায়।</description>
+    </item>
+    <item>
+      <title>পাসওয়ার্ড ম্যানেজার কেন ব্যবহার করবেন?</title>
+      <link>//localhost:1313/security-tips/password-manager-use/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/password-manager-use/</guid>
+      <description>অনেকগুলো শক্তিশালী ও আলাদা পাসওয়ার্ড মনে রাখা প্রায় অসম্ভব। পাসওয়ার্ড ম্যানেজার এই কাজটি আপনার জন্য সহজ এবং সুরক্ষিত করে দেয়।</description>
+    </item>
+    <item>
+      <title>ফিশিং ইমেল বা SMS চেনার উপায় কী?</title>
+      <link>//localhost:1313/security-tips/phishing-identification/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/phishing-identification/</guid>
+      <description>হ্যাকাররা আপনাকে নকল ইমেল বা SMS পাঠিয়ে আপনার ব্যক্তিগত তথ্য চুরি করার চেষ্টা করে। সতর্ক থাকুন।</description>
+    </item>
+    <item>
+      <title>ফেসবুক প্রোফাইল কীভাবে লক করবেন?</title>
+      <link>//localhost:1313/security-tips/facebook-profile-lock/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/facebook-profile-lock/</guid>
+      <description>আপনার ব্যক্তিগত ছবি ও পোস্টগুলোকে অপরিচিতদের থেকে আড়াল করার জন্য ফেসবুক প্রোফাইল লক করা একটি চমৎকার উপায়।</description>
+    </item>
+    <item>
+      <title>শিশুদের জন্য নিরাপদ ইন্টারনেট কীভাবে নিশ্চিত করবেন?</title>
+      <link>//localhost:1313/security-tips/internet-safety-for-kids/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/internet-safety-for-kids/</guid>
+      <description>শিশুরা ইন্টারনেটে অনেক ঝুঁকির সম্মুখীন হতে পারে। பெற்றோ হিসেবে আপনার দায়িত্ব তাদের সুরক্ষিত রাখা।</description>
+    </item>
+    <item>
+      <title>সফটওয়্যার আপডেট করা কেন এত জরুরি?</title>
+      <link>//localhost:1313/security-tips/importance-of-updates/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/importance-of-updates/</guid>
+      <description>অ্যাপ বা অপারেটিং সিস্টেমের আপডেট নোটিফিকেশন বিরক্তিকর মনে হলেও, এটি আপনার সুরক্ষার জন্য অত্যন্ত প্রয়োজনীয়।</description>
+    </item>
+    <item>
+      <title>সোশ্যাল মিডিয়ায় ব্যক্তিগত তথ্য কীভাবে সুরক্ষিত রাখবেন?</title>
+      <link>//localhost:1313/security-tips/social-media-privacy/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/security-tips/social-media-privacy/</guid>
+      <description>ফেসবুক, ইনস্টাগ্রাম ব্যবহারের সময় কিছু প্রাইভেসি সেটিংস পরিবর্তন করে আপনি আপনার ব্যক্তিগত তথ্য সুরক্ষিত রাখতে পারেন।</description>
+    </item>
+  </channel>
+</rss>

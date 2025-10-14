@@ -1,0 +1,8 @@
+baseURL = "/"
+languageCode = "bn-BD"
+title = "সাইবার হেল্প বাংলা"
+
+[menu]
+  [[menu.main]]
+...
+
